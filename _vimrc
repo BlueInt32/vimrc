@@ -37,7 +37,7 @@ syntax on
 set laststatus=2
 set statusline=%F%m%r%h%w\ [FORMAT=%{&ff}]\ [TYPE=%Y]\[POS=%l,%v][%p%%]\ %{strftime(\"%d/%m/%y\ -\ %H:%M\")}
 "Set Color Scheme and Font Options
-colorscheme badwolf 
+colorscheme mirodark
 set guifont=Consolas:h12
 "set line no, buffer, search, highlight, autoindent and more.
 set nu
@@ -98,3 +98,7 @@ function! GuiTabLabel()
 endfunction
 set guitablabel=%{GuiTabLabel()}
 set nohlsearch
+let g:session_autosave = 'no'
+let g:session_autoload = 'no'
+let g:netrw_list_hide= '(.*\.swp)|(.*\~)$'
+

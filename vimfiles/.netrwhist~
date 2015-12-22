@@ -1,5 +1,5 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_cnt =9
 let g:netrw_dirhist_1='C:\WINDOWS\System32'
 let g:netrw_dirhist_2='C:/WINDOWS'
 let g:netrw_dirhist_3='C:\Windows'
@@ -8,3 +8,4 @@ let g:netrw_dirhist_5='D:'
 let g:netrw_dirhist_6='D:\_Prog\Git\Supersprint\app\js'
 let g:netrw_dirhist_7='C:/Users/simon/Vim'
 let g:netrw_dirhist_8='C:/Users/simon/Vim/vim74'
+let g:netrw_dirhist_9='C:/Users/simon/Vim'
