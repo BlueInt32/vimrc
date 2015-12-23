@@ -59,7 +59,7 @@ set undolevels=1000
 set noerrorbells visualbell t_vb=
 autocmd GUIEnter * set visualbell t_vb=
 set lines=50 columns=100
-command Supersprint cd d:\_Prog\Git\Supersprint\app\js
+command Vimrc e $VIM/_vimrc
 set shiftwidth=2
 set tabstop=2
 set softtabstop=2
@@ -100,5 +100,14 @@ set guitablabel=%{GuiTabLabel()}
 set nohlsearch
 let g:session_autosave = 'no'
 let g:session_autoload = 'no'
-let g:netrw_list_hide= '(.*\.swp)|(.*\~)$'
-
+let g:netrw_list_hide= '.*\.swp$'
+set backupdir=~/.vim/backup
+set nobackup
+set nowritebackup
+" cursor tweaking
+highlight Cursor guifg=#ffffff guibg=#cc0000
+highlight iCursor guifg=white guibg=steelblue
+set guicursor=n-v-c:block-Cursor
+set guicursor+=i:ver100-iCursor
+set guicursor+=n-v-c:blinkon0
+set guicursor+=i:blinkwait4

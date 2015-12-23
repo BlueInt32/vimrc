@@ -8,7 +8,7 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/tab
+~MSle0~/block
 
 # Last Substitute Search Pattern:
 ~MSle0&startLap
@@ -17,12 +17,37 @@
 $
 
 # Command Line History (newest to oldest):
+:wq
+:Vimrc
+:Vim
+:h Cursor
+:h guicursor
+:tag xterm-color
+:h color
 :w
 :e C:\Users\simon\Vim\_vimrc
-:E
+:e $vim
 :OpenSession ssprint
-:e _vimrc
+:E
+:w!
+:e $VIM
+:e $VIM/_
+:q
+:h
+:colorscheme
+:colorsh
+:colder
+:tag salut
+:help repeating
+:tabclose
+:tag jqksdjfkqsdf
+:tag
+:tag tutor
+:tag quickref
 :h netrw
+:tabe 
+:s
+:e _vimrc
 :ls
 :tabm 0
 :E 
@@ -31,9 +56,7 @@ $
 :savesession supersprint
 :colorscheme mirodark
 :OpenSession supersprint
-:q
 :.
-:wq
 :tabm
 :tabc
 :tabx
@@ -41,7 +64,6 @@ $
 :tabm 2
 :tabm 1
 :e C:\Users\simon\Vim\\_vimrc
-:tabclose
 :ld
 :tabe E
 :SaveSession
@@ -56,9 +78,7 @@ $
 :h y
 :hls
 :noic
-:s
 :e
-:e $VIM
 :colorscheme badwolf
 :e C:\Users\simon\Vim\vim74
 :vs
@@ -185,6 +205,18 @@ $
 :colorscheme molokai
 
 # Search String History (newest to oldest):
+?/block
+?/block-cursor
+?/#
+?/blue
+?/super
+?/sup
+?/quick
+?/netrw-quickmap
+?/maps
+?/netrw-browse-cmds
+?/netrw-browse
+?/au
 ? ^\.\.\=/$
 ?/tab
 ?/color
@@ -280,32 +312,66 @@ $
 # Input Line History (newest to oldest):
 
 # Registers:
-""0	CHAR	0
-	 
+"0	CHAR	0
+	(
 "1	LINE	0
-	" ============================================================================
-	" Netrw Directory Listing                                        (netrw v149)
-	"   C:/Users/simon/Vim
-	"   Sorted by      name
-	"   Sort sequence: [\/]$,\.h$,\.c$,\.cpp$,*,\.o$,\.obj$,\.info$,\.swp$,\.bak$,\~$
-	"   Hiding:        .*\.swp$
-	"   Quick Help: <F1>:help  -:go up dir  D:delete  R:rename  s:sort-by  x:exec
-	" ============================================================================
-	../
-	./
-	.git/
-	vim74/
-	vimfiles/
-	.gitignore
-	_viminfo
-	_vimrc
-	.gitignore~
-	_vimrc~
+	command Supersprint cd d:\_Prog\Git\Supersprint\app\js
 "2	LINE	0
-	._vimrc.swp
-"3	LINE	0
 	.swp
+"3	LINE	0
+	.settings.js.swp
 "4	LINE	0
+	.Game.js.swp
+"5	LINE	0
+	autocmd SessionLoadPost	* netrw .
+"6	LINE	0
+	" ============================================================================
+	" Netrw Directory Listing                                        (netrw v149)
+	"   D:/_Prog/Git/Supersprint/app/js
+	"   Sorted by      name
+	"   Sort sequence: [\/]$,\.h$,\.c$,\.cpp$,*,\.o$,\.obj$,\.info$,\.swp$,\.bak$,\~$
+	"   Hiding:        (.*\.swp)|(.*~)$
+	"   Quick Help: <F1>:help  -:go up dir  D:delete  R:rename  s:sort-by  x:exec
+	" ============================================================================
+	../
+	./
+	libs/
+	utils/
+	B2Loader.js
+	B2WorldFacade.js
+	Car.js
+	CheckpointManager.js
+	ContactManager.js
+	Game.js
+	KeyboardHandler.js
+	PixiFacade.js
+	Player.js
+	PlayerCar.js
+	PlayerCommand.js
+	Race.js
+	Rival.js
+	SocketManager.js
+	StatsOverlay.js
+	iaCar.js
+	settings.js
+	universeMaker.js
+	worldSetup.js
+	.Game.js.swp
+	.settings.js.swp
+	B2Loader.js~
+	B2WorldFacade.js~
+	Car.js~
+	CheckpointManager.js~
+	ContactManager.js~
+	Game.js~
+	PlayerCar.js~
+	PlayerCommand.js~
+	iaCar.js~
+	settings.js~
+"7	LINE	0
+	jqksdjfkqsdf
+	jqksdjfkqsdf
+"8	LINE	0
 	" ============================================================================
 	" Netrw Directory Listing                                        (netrw v149)
 	"   C:/Users/simon/Vim
@@ -315,16 +381,7 @@ $
 	"   Quick Help: <F1>:help  -:go up dir  D:delete  R:rename  s:sort-by  x:exec
 	" ============================================================================
 	../
-	Vim/
-	| .git/
-	| vim74/
-	| vimfiles/
-	| .gitignore
-	| _viminfo
-	| _vimrc
-	| .gitignore~
-	| _vimrc~
-"5	LINE	0
+	./
 	.git/
 	vim74/
 	vimfiles/
@@ -333,42 +390,57 @@ $
 	_vimrc
 	.gitignore~
 	_vimrc~
-"6	LINE	0
-	./
-"7	LINE	0
-	../
-"8	LINE	0
-	._vimrc.swp
 "9	LINE	0
-	.swp
-"-	BLOCK	13
-	_vimrc~       
+	._vimrc.swp
+""-	CHAR	0
+	1
 
 # File marks:
-'0  3  2  ~\Vim\.gitignore
-'1  103  0  ~\Vim\_vimrc
-'2  7  0  ~\Vim\
-'3  30  0  D:\_Prog\Git\Supersprint\app\js\Game.js
-'4  14  3  D:\_Prog\Git\Supersprint\app\js\settings.js
-'5  1  19  ~\Vim\_vimrc
-'6  1  0  ~\Vim\_vimrc
-'7  34  2  D:\_Prog\Git\Supersprint\app\js\PlayerCar.js
-'8  41  5  D:\_Prog\Git\Supersprint\app\js\Game.js
-'9  7  1  D:\_Prog\Git\Supersprint\app\js\StatsOverlay.js
+'0  108  23  ~\Vim\_vimrc
+'1  109  26  ~\Vim\_vimrc
+'2  113  16  ~\Vim\_vimrc
+'3  62  8  ~\Vim\_vimrc
+'4  63  8  ~\Vim\_vimrc
+'5  9  0  D:\_Prog\Git\Supersprint\app\js\
+'6  103  30  ~\Vim\_vimrc
+'7  106  16  ~\Vim\_vimrc
+'8  61  31  ~\Vim\_vimrc
+'9  3  2  ~\Vim\.gitignore
 
 # Jumplist (newest first):
--'  3  2  ~\Vim\.gitignore
--'  103  0  ~\Vim\_vimrc
--'  104  0  ~\Vim\_vimrc
--'  25  0  D:\_Prog\Git\Supersprint\app\js\
--'  14  3  D:\_Prog\Git\Supersprint\app\js\settings.js
--'  67  0  D:\_Prog\Git\Supersprint\app\js\
--'  10  0  ~/
+-'  108  23  ~\Vim\_vimrc
 -'  1  0  ~\Vim\_vimrc
--'  7  0  ~\Vim\
--'  30  0  ~\Vim\
+-'  109  26  ~\Vim\_vimrc
+-'  63  0  ~\Vim\_vimrc
+-'  112  16  ~\Vim\_vimrc
+-'  113  16  ~\Vim\_vimrc
+-'  103  2  ~\Vim\_vimrc
+-'  106  8  ~\Vim\_vimrc
+-'  62  8  ~\Vim\_vimrc
+-'  100  0  ~\Vim\_vimrc
+-'  14  3  D:\_Prog\Git\Supersprint\app\js\settings.js
+-'  9  0  D:\_Prog\Git\Supersprint\app\js\
+-'  60  0  D:\_Prog\Git\Supersprint\app\js\
+-'  30  50  D:\_Prog\Git\Supersprint\app\js\settings.js
+-'  105  0  ~\Vim\_vimrc
+-'  61  0  ~\Vim\_vimrc
+-'  8  0  D:\_Prog\Git\Supersprint\app\js
+-'  1  0  ~\Vim\vim74\doc\quickref.txt
+-'  49  4  ~\Vim\_vimrc
+-'  42  41  ~\Vim\_vimrc
+-'  102  14  ~\Vim\_vimrc
+-'  65  0  ~\Vim\_vimrc
+-'  9  0  ~\Vim\
+-'  101  11  D:\_Prog\Git\Supersprint\app\js\
+-'  3  2  ~\Vim\.gitignore
+-'  104  0  ~\Vim\_vimrc
+-'  134  0  D:\_Prog\Git\Supersprint\app\js\
+-'  176  0  D:\_Prog\Git\Supersprint\app\js\
+-'  10  0  ~/
+-'  26  0  ~\Vim\
+-'  49  0  ~\Vim\
 -'  1  0  D:\_Prog\Git\Supersprint\app\js\NetrwTreeListing 2
--'  36  0  ~\Vim\
+-'  55  0  ~\Vim\
 -'  30  0  D:\_Prog\Git\Supersprint\app\js\Game.js
 -'  29  61  D:\_Prog\Git\Supersprint\app\js\Game.js
 -'  34  2  D:\_Prog\Git\Supersprint\app\js\PlayerCar.js
@@ -426,49 +498,16 @@ $
 -'  105  18  D:\_Prog\Git\Supersprint\app\js\Car.js
 -'  21  0  D:\_Prog\Git\Supersprint\app\js\PlayerCar.js
 -'  99  48  D:\_Prog\Git\Supersprint\app\js\Car.js
--'  96  47  D:\_Prog\Git\Supersprint\app\js\Car.js
--'  93  13  D:\_Prog\Git\Supersprint\app\js\Car.js
--'  21  7  D:\_Prog\Git\Supersprint\app\js\Car.js
--'  18  7  D:\_Prog\Git\Supersprint\app\js\Car.js
--'  97  37  D:\_Prog\Git\Supersprint\app\js\Car.js
--'  8  0  ~\Vim\
--'  31  0  ~\Vim\
--'  1  0  D:\_Prog\Git\Supersprint\app\js\NetrwTreeListing 2
--'  24  0  D:\_Prog\Git\Supersprint\app\js\
--'  10  0  ~/
--'  7  0  ~\Vim\
--'  30  0  ~\Vim\
--'  1  0  D:\_Prog\Git\Supersprint\app\js\NetrwTreeListing 2
--'  36  0  ~\Vim\
--'  103  0  ~\Vim\_vimrc
--'  1  0  ~\Vim\_vimrc
--'  104  0  ~\Vim\_vimrc
--'  25  0  D:\_Prog\Git\Supersprint\app\js\
--'  14  3  D:\_Prog\Git\Supersprint\app\js\settings.js
--'  67  0  D:\_Prog\Git\Supersprint\app\js\
--'  10  0  ~/
--'  7  0  ~\Vim\
--'  30  0  ~\Vim\
--'  1  0  D:\_Prog\Git\Supersprint\app\js\NetrwTreeListing 2
--'  36  0  ~\Vim\
--'  30  0  D:\_Prog\Git\Supersprint\app\js\Game.js
--'  29  61  D:\_Prog\Git\Supersprint\app\js\Game.js
--'  34  2  D:\_Prog\Git\Supersprint\app\js\PlayerCar.js
--'  41  5  D:\_Prog\Git\Supersprint\app\js\Game.js
+-'  8  0  D:\_Prog\Git\Supersprint\app\js
+-'  1  0  ~\Vim\vim74\doc\quickref.txt
+-'  30  0  D:\_Prog\Git\Supersprint\app\js\
 
 # History of marks within files (newest to oldest):
 
-> ~\Vim\.gitignore
-	"	3	2
-	^	3	3
-	.	3	2
-	+	1	6
-	+	4	0
-	+	3	2
-
 > ~\Vim\_vimrc
-	"	103	0
-	.	103	0
+	"	108	23
+	^	108	24
+	.	108	23
 	+	1	19
 	+	1	0
 	+	1	54
@@ -491,14 +530,34 @@ $
 	+	1	33
 	+	1	0
 	+	103	37
-	+	104	0
-	+	103	0
-	+	104	0
 	+	105	0
 	+	103	0
+	+	105	0
+	+	114	0
+	+	103	37
+	+	104	0
+	+	61	0
+	+	105	0
+	+	103	24
+	+	62	8
+	+	108	0
+	+	107	16
+	+	63	0
+	+	108	38
+	+	113	26
+	+	108	23
+
+> ~\Vim\vim74\doc\options.txt
+	"	3442	9
+
+> ~\Vim\vim74\doc\mbyte.txt
+	"	998	43
+
+> ~\Vim\vim74\doc\syntax.txt
+	"	942	27
 
 > D:\_Prog\Git\Supersprint\app\js\Game.js
-	"	30	0
+	"	10	0
 	.	30	0
 	+	38	96
 	+	41	0
@@ -514,8 +573,8 @@ $
 
 > D:\_Prog\Git\Supersprint\app\js\settings.js
 	"	14	3
-	^	36	28
-	.	30	22
+	^	30	51
+	.	30	0
 	+	29	27
 	+	34	20
 	+	30	22
@@ -531,94 +590,67 @@ $
 	+	31	35
 	+	30	23
 	+	36	27
-	+	30	22
+	+	30	0
 	l	29	22
 
-> D:\_Prog\Git\Supersprint\app\js\ContactManager.js
-	"	29	2
-	^	41	9
-	.	22	0
-	+	22	26
-	+	6	36
-	+	6	17
-	+	27	12
-	+	30	12
-	+	31	12
-	+	35	12
-	+	40	8
-	+	41	8
-	+	22	0
-
 > ~\Vim\vim74\doc\pi_netrw.txt
-	"	1078	57
+	"	995	26
 
-> D:\_Prog\Git\Supersprint\app\js\_vimrc
-	"	1	0
+> ~\Vim\vim74\doc\help.txt
+	"	49	0
 
-> D:\_Prog\Git\Supersprint\app\js\PlayerCar.js
-	"	34	0
-	^	45	0
-	.	45	0
-	+	7	0
-	+	7	0
-	+	28	0
-	+	27	0
-	+	33	0
-	+	33	0
-	+	81	24
-	+	80	7
-	+	82	36
-	+	81	0
-	+	74	0
-	+	73	7
-	+	75	37
-	+	88	0
-	+	89	36
-	+	87	7
-	+	32	27
-	+	32	0
-	+	81	17
-	+	88	16
-	+	32	0
-	+	74	16
-	+	81	37
-	+	15	65
-	+	10	20
-	+	15	0
-	+	19	0
-	+	20	0
-	+	10	1
-	+	15	0
-	+	9	0
-	+	10	0
-	+	11	0
-	+	15	0
-	+	81	0
-	+	46	0
-	+	46	0
-	+	45	0
-	d	78	0
+> ~\Vim\vim74\doc\quickref.txt
+	"	55	0
 
-> ~\Vim\vim74\doc\tabpage.txt
-	"	106	15
+> ~\Vim\vim74\doc\usr_01.txt
+	"	180	56
 
-> D:\_Prog\Git\Supersprint\app\js\StatsOverlay.js
-	"	7	1
-	^	9	1
-	.	9	0
-	+	9	0
+> ~\Vim\vim74\doc\repeat.txt
+	"	106	0
 
-> D:\_Prog\Git\Supersprint\app\js\E
-	"	1	0
-
-> D:\_Prog\Git\Supersprint\app\js\Player.js
-	"	1	0
-
-> D:\_Prog\Git\Supersprint\app\js\worldSetup.js
-	"	144	0
+> D:\_Prog\Git\Supersprint\app\js\ControlP
+	"	10	0
+	.	2	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	2	0
 
 > D:\_Prog\Git\Supersprint\app\js\Car.js
-	"	70	28
+	"	82	28
 	.	33	0
 	+	90	0
 	+	90	0
@@ -723,6 +755,125 @@ $
 	k	103	10
 	m	92	0
 
+> D:\_Prog\Git\Supersprint\app\js\CheckpointManager.js
+	"	1	0
+	^	34	41
+	.	34	41
+	+	19	10
+	+	23	0
+	+	41	0
+	+	42	0
+	+	19	0
+	+	41	0
+	+	26	9
+	+	37	9
+	+	29	0
+	+	33	31
+	+	35	31
+	+	37	29
+	+	34	21
+	+	38	33
+	+	32	14
+	+	34	41
+	j	17	0
+
+> D:\_Prog\Git\Supersprint\app\js\iaCar.js
+	"	1	0
+	^	1	0
+	.	1	0
+	+	1	0
+
+> D:\_Prog\Git\SuperSprint\keyrate  delay130 repeat7.ps1
+	"	1	0
+
+> ~\Vim\.gitignore
+	"	3	2
+	^	3	3
+	.	3	2
+	+	1	6
+	+	4	0
+	+	3	2
+
+> D:\_Prog\Git\Supersprint\app\js\ContactManager.js
+	"	29	2
+	^	41	9
+	.	22	0
+	+	22	26
+	+	6	36
+	+	6	17
+	+	27	12
+	+	30	12
+	+	31	12
+	+	35	12
+	+	40	8
+	+	41	8
+	+	22	0
+
+> D:\_Prog\Git\Supersprint\app\js\_vimrc
+	"	1	0
+
+> D:\_Prog\Git\Supersprint\app\js\PlayerCar.js
+	"	34	0
+	^	45	0
+	.	45	0
+	+	7	0
+	+	7	0
+	+	28	0
+	+	27	0
+	+	33	0
+	+	33	0
+	+	81	24
+	+	80	7
+	+	82	36
+	+	81	0
+	+	74	0
+	+	73	7
+	+	75	37
+	+	88	0
+	+	89	36
+	+	87	7
+	+	32	27
+	+	32	0
+	+	81	17
+	+	88	16
+	+	32	0
+	+	74	16
+	+	81	37
+	+	15	65
+	+	10	20
+	+	15	0
+	+	19	0
+	+	20	0
+	+	10	1
+	+	15	0
+	+	9	0
+	+	10	0
+	+	11	0
+	+	15	0
+	+	81	0
+	+	46	0
+	+	46	0
+	+	45	0
+	d	78	0
+
+> ~\Vim\vim74\doc\tabpage.txt
+	"	106	15
+
+> D:\_Prog\Git\Supersprint\app\js\StatsOverlay.js
+	"	7	1
+	^	9	1
+	.	9	0
+	+	9	0
+
+> D:\_Prog\Git\Supersprint\app\js\E
+	"	1	0
+
+> D:\_Prog\Git\Supersprint\app\js\Player.js
+	"	1	0
+
+> D:\_Prog\Git\Supersprint\app\js\worldSetup.js
+	"	144	0
+
 > D:\_Prog\Git\Supersprint\app\js\Race.js
 	"	18	0
 
@@ -764,28 +915,6 @@ $
 
 > ~\Vim\vim74\doc\eval.txt
 	"	5068	45
-
-> D:\_Prog\Git\Supersprint\app\js\CheckpointManager.js
-	"	9	7
-	^	34	41
-	.	34	41
-	+	19	10
-	+	23	0
-	+	41	0
-	+	42	0
-	+	19	0
-	+	41	0
-	+	26	9
-	+	37	9
-	+	29	0
-	+	33	31
-	+	35	31
-	+	37	29
-	+	34	21
-	+	38	33
-	+	32	14
-	+	34	41
-	j	17	0
 
 > ~\keyfast\keyrate  delay130 repeat7.ps1
 	"	1	0
@@ -905,9 +1034,6 @@ $
 > D:\_Prog\Git\SuperSprint\app\js\universeMaker.js
 	"	133	0
 
-> ~\Vim\vim74\doc\help.txt
-	"	1	0
-
 > ~\Vim\vim74\doc\sponsor.txt
 	"	25	0
 
@@ -936,23 +1062,11 @@ $
 	+	43	1
 	+	32	20
 
-> D:\_Prog\Git\Supersprint\app\js\iaCar.js
-	"	1	0
-	^	1	0
-	.	1	0
-	+	1	0
-
 > ~\Vim\vim74\doc\starting.txt
 	"	1223	0
 
 > ~\Vim\vim74\doc\intro.txt
 	"	412	31
 
-> ~\Vim\vim74\doc\usr_01.txt
-	"	114	75
-
 > ~\Vim\vim74\doc\map.txt
 	"	1192	0
-
-> ~\Vim\vim74\doc\options.txt
-	"	669	53
