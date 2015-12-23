@@ -100,7 +100,7 @@ set guitablabel=%{GuiTabLabel()}
 set nohlsearch
 let g:session_autosave = 'no'
 let g:session_autoload = 'no'
-let g:netrw_list_hide= '.*\.swp$'
+let g:netrw_list_hide= '.*\.sw[o-p]$'
 set backupdir=~/.vim/backup
 set nobackup
 set nowritebackup
@@ -108,3 +108,5 @@ set nowritebackup
 highlight Cursor guifg=#ffffff guibg=#cc0000
 set guicursor=n-v-c:block-Cursor
 set guicursor+=n-v-c:blinkon0
+let g:netrw_preview = 1
+map <C-J> <C-W><C-W>
