@@ -58,6 +58,7 @@ set undolevels=1000
 "disable bell
 set noerrorbells visualbell t_vb=
 autocmd GUIEnter * set visualbell t_vb=
+"autocmd WinEnter * execute "normal \<C-W>\<C-W>"
 set lines=50 columns=100
 command Vimrc e $VIM/_vimrc
 set shiftwidth=2
@@ -100,7 +101,7 @@ set guitablabel=%{GuiTabLabel()}
 set nohlsearch
 let g:session_autosave = 'no'
 let g:session_autoload = 'no'
-let g:netrw_list_hide= '.*\.sw[o-p]$'
+let g:netrw_list_hide= '.*\.sw[n-p]$'
 set backupdir=~/.vim/backup
 set nobackup
 set nowritebackup
@@ -108,5 +109,6 @@ set nowritebackup
 highlight Cursor guifg=#ffffff guibg=#cc0000
 set guicursor=n-v-c:block-Cursor
 set guicursor+=n-v-c:blinkon0
-let g:netrw_preview = 1
+let g:netrw_preview = 0
 map <C-J> <C-W><C-W>
+let g:netrw_chgwin=2
