@@ -314,17 +314,23 @@ $
 # Registers:
 "0	CHAR	0
 	(
-"1	LINE	0
-	command Supersprint cd d:\_Prog\Git\Supersprint\app\js
+""1	LINE	0
+	highlight iCursor guifg=white guibg=steelblue
 "2	LINE	0
-	.swp
+	set guicursor+=i:ver100-iCursor
 "3	LINE	0
-	.settings.js.swp
+	set guicursor+=i:blinkwait4
 "4	LINE	0
-	.Game.js.swp
+	command Supersprint cd d:\_Prog\Git\Supersprint\app\js
 "5	LINE	0
-	autocmd SessionLoadPost	* netrw .
+	.swp
 "6	LINE	0
+	.settings.js.swp
+"7	LINE	0
+	.Game.js.swp
+"8	LINE	0
+	autocmd SessionLoadPost	* netrw .
+"9	LINE	0
 	" ============================================================================
 	" Netrw Directory Listing                                        (netrw v149)
 	"   D:/_Prog/Git/Supersprint/app/js
@@ -368,37 +374,13 @@ $
 	PlayerCommand.js~
 	iaCar.js~
 	settings.js~
-"7	LINE	0
-	jqksdjfkqsdf
-	jqksdjfkqsdf
-"8	LINE	0
-	" ============================================================================
-	" Netrw Directory Listing                                        (netrw v149)
-	"   C:/Users/simon/Vim
-	"   Sorted by      name
-	"   Sort sequence: [\/]$,\.h$,\.c$,\.cpp$,*,\.o$,\.obj$,\.info$,\.swp$,\.bak$,\~$
-	"   Hiding:        .*\.swp$
-	"   Quick Help: <F1>:help  -:go up dir  D:delete  R:rename  s:sort-by  x:exec
-	" ============================================================================
-	../
-	./
-	.git/
-	vim74/
-	vimfiles/
-	.gitignore
-	_viminfo
-	_vimrc
-	.gitignore~
-	_vimrc~
-"9	LINE	0
-	._vimrc.swp
-""-	CHAR	0
+"-	CHAR	0
 	1
 
 # File marks:
-'0  108  23  ~\Vim\_vimrc
-'1  109  26  ~\Vim\_vimrc
-'2  113  16  ~\Vim\_vimrc
+'0  109  0  ~\Vim\_vimrc
+'1  108  23  ~\Vim\_vimrc
+'2  111  16  ~\Vim\_vimrc
 '3  62  8  ~\Vim\_vimrc
 '4  63  8  ~\Vim\_vimrc
 '5  9  0  D:\_Prog\Git\Supersprint\app\js\
@@ -408,12 +390,12 @@ $
 '9  3  2  ~\Vim\.gitignore
 
 # Jumplist (newest first):
--'  108  23  ~\Vim\_vimrc
+-'  109  0  ~\Vim\_vimrc
 -'  1  0  ~\Vim\_vimrc
--'  109  26  ~\Vim\_vimrc
+-'  108  23  ~\Vim\_vimrc
 -'  63  0  ~\Vim\_vimrc
--'  112  16  ~\Vim\_vimrc
--'  113  16  ~\Vim\_vimrc
+-'  110  16  ~\Vim\_vimrc
+-'  111  16  ~\Vim\_vimrc
 -'  103  2  ~\Vim\_vimrc
 -'  106  8  ~\Vim\_vimrc
 -'  62  8  ~\Vim\_vimrc
@@ -505,9 +487,9 @@ $
 # History of marks within files (newest to oldest):
 
 > ~\Vim\_vimrc
-	"	108	23
+	"	109	0
 	^	108	24
-	.	108	23
+	.	109	0
 	+	1	19
 	+	1	0
 	+	1	54
@@ -533,7 +515,7 @@ $
 	+	105	0
 	+	103	0
 	+	105	0
-	+	114	0
+	+	111	0
 	+	103	37
 	+	104	0
 	+	61	0
@@ -544,8 +526,11 @@ $
 	+	107	16
 	+	63	0
 	+	108	38
-	+	113	26
+	+	111	26
 	+	108	23
+	+	111	0
+	+	110	0
+	+	109	0
 
 > ~\Vim\vim74\doc\options.txt
 	"	3442	9
